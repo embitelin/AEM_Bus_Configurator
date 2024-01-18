@@ -1,0 +1,9 @@
+.cq-Overlay--component[title="Variable Column Container"] {
+    background-color: transparent !important;
+}
+
+.cq-Overlay--component[title="Variable Column Container"]:before {
+    width: 99%;
+    height: unset;
+    background-color: #E0E0E0;
+}

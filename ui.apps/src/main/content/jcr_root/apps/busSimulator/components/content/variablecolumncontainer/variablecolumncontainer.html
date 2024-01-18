@@ -1,0 +1,61 @@
+
+<div data-sly-test="${properties.numberofcolumn == 'three'}">
+<div class="container-fluid py-3">
+
+<div  class=" container-fluid d-flex align-items-start justify-content-center">
+
+            <div
+                data-sly-resource="${'par1'  @ resourceType='/apps/embitel-app/components/content/article/v1/article'}"
+                data-sly-unwrap
+            >
+            </div>
+
+
+            <div
+                data-sly-resource="${'par2'  @ resourceType='/apps/embitel-app/components/content/article/v1/article'}"
+                data-sly-unwrap
+            >
+            </div>
+
+
+            <div
+                data-sly-resource="${'par3'  @ resourceType='/apps/embitel-app/components/content/article/v1/article'}"
+                data-sly-unwrap
+            >
+            </div>
+        </div>
+</div>
+</div>
+<div data-sly-test="${properties.numberofcolumn == 'four'}">
+<div style="width:25%">
+            <div
+                data-sly-resource="${@ path=par, resourceType='wcm/foundation/components/parsys'}"
+                data-sly-unwrap
+            >
+            </div>
+        </div>
+		<div style="width:25%">
+            <div
+                data-sly-resource="${@ path=par, resourceType='wcm/foundation/components/parsys'}"
+                data-sly-unwrap
+            >
+            </div>
+        </div>
+		<div style="width:25%">
+            <div
+                data-sly-resource="${@ path=par, resourceType='wcm/foundation/components/parsys'}"
+                data-sly-unwrap
+            >
+            </div>
+        </div>
+		<div style="width:25%">
+            <div
+                data-sly-resource="${@ path=par, resourceType='wcm/foundation/components/parsys'}"
+                data-sly-unwrap
+            >
+            </div>
+        </div>
+<div data-sly-test="${wcmmode.edit}" data-emptytext="End of Columns">
+    <!--/*End of Columns*/-->
+</div>
+</div>

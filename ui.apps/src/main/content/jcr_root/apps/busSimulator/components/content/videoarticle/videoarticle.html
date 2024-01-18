@@ -1,0 +1,111 @@
+<style>
+.banner--has-side-picture {
+    background-color: transparent;
+    min-height: auto;
+    overflow: visible;
+}
+.banner--fullscreen {
+    min-height: auto;
+  --  height: 100vh;
+}
+.banner {
+    display: block;
+    position: relative;
+    min-height: 600px;
+    overflow: hidden;
+    background-color: #161618;
+    color: #fff;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media screen and (prefers-reduced-motion: no-preference)
+html.js .banner--has-side-picture .banner--has-side-picture-bg {
+    height: 140vh;
+}
+
+element.style {
+    backface-visibility: hidden;
+    opacity: 1;
+}
+@media screen and (prefers-reduced-motion: no-preference)
+html.js .banner--has-side-picture .banner--has-side-picture-bg {
+    height: 140vh;
+}
+.banner--has-side-picture .banner--has-side-picture-bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    z-index: -1;
+    left: 0;
+    background-color: #161618;
+}
+.banner-content-holder {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+}
+.banner-content {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+
+    padding-top: var(--section-padding-top);
+    padding-bottom: var(--section-padding-bottom);
+}
+header {
+    position: absolute;
+    left: var(--container-gutter);
+    right: var(--container-gutter);
+}
+.banner--has-side-picture .banner-header {
+    margin-bottom: 40px;
+}
+.banner-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+.banner--has-side-picture .banner-tagline--half-width {
+    width: auto;
+}
+.banner--has-side-picture .banner-side-picture {
+    order: initial;
+    margin-bottom: 0;
+    margin-left: 40px;
+    max-width: 43%;
+    height: 100%;
+    object-fit: cover;
+    float : right;
+}
+</style>
+<section class="banner    banner--fullscreen  banner--has-side-picture   ">
+<div aria-hidden="true" class="banner-background lax" style="background-image: url(&quot;&quot;); backface-visibility: hidden;"></div>
+<div class="banner--has-side-picture-bg lax" data-lax-opacity="(-vh*0.2) 1, (-vh*0.4) 0" data-lax-anchor="self" style="backface-visibility: hidden; opacity: 1;"></div>
+<a href="${properties.linkUrl}" class="banner-content-holder" data-custom-cursor="" data-cursor-text="Learn More">
+<div class="banner-content container lax" style="backface-visibility: hidden;">
+
+<div class="banner-copy lax" data-lax-translate-y_small="vh 0, (vh*0.4) 0, (-vh*0.2) (vh*0.1)" data-lax-anchor="self" style="backface-visibility: hidden;">
+<div style="
+    float: left;
+    width: 45%;
+    margin-top: 18%;
+    color: #fff;
+">
+<h2 class="banner-title">${properties.title @ context = 'html'}</h2>
+<div class="banner-tagline banner-tagline--half-width">
+<p class="">${properties.description @ context = 'html'}</p>
+</div>
+</div>
+<video class="banner-side-picture lax" src="${properties.videoReference}" preload="" muted="" autoplay="" playsinline="" loop="" style="backface-visibility: hidden;"></video>
+</div>
+</div>
+</a>
+</section>

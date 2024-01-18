@@ -1,0 +1,20 @@
+<div class="container-fluid d-flex justify-content-center" style="padding-left: 0; padding-right: 0">
+      <div class="col-9">
+        <div class="container-fluid mb-5 d-flex justify-content-center align-content-center" style="padding-left: 0; padding-right: 0; margin-top:60px">
+          <div class="d-flex flex-column align-items-center">
+            <span data-sly-test="${properties.headerLabel}" class="fs-2 text-black text-center text-uppercase text-dark">
+              ${properties.headerLabel @ context = 'html'}
+            </span>
+            <span data-sly-test="${properties.headerdesc}" class="fs-6 col-7 text-center my-3">
+              ${properties.headerdesc @ context = 'html'}
+            </span>
+            <span data-sly-test="${properties.linkLabel}" class="fs-6" style="color:cornflowerblue">
+              ${properties.linkLabel @ context = 'html'}
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="9 18 15 12 9 6"></polyline>
+              </svg>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>

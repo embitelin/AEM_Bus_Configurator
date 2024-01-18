@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:granite="http://www.adobe.com/jcr/granite/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Text article Component"
+    sling:resourceType="cq/gui/components/authoring/dialog"
+    helpPath="https://confluence.embitel.com/x/QQLVD">
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/coral/foundation/container">
+        <items jcr:primaryType="nt:unstructured">
+            <tabs
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/tabs"
+                maximized="{Boolean}true">
+                <items jcr:primaryType="nt:unstructured">
+                    <general
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="General"
+                        sling:resourceType="granite/ui/components/coral/foundation/container">
+                        <items jcr:primaryType="nt:unstructured">
+                            <columns
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns"
+                                margin="{Boolean}true">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <column
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/container">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <headerLabel
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldDescription="Recommended character count is max of 30 including spaces"
+                                                fieldLabel="Header Label"
+                                                name="./headerLabel"
+                                                required="{Boolean}false"/>
+                                            <headerDesc
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldDescription="Recommended character count is max of 30 including spaces"
+                                                fieldLabel="Header Description"
+                                                name="./headerdesc"
+                                                required="{Boolean}false"/>
+                                            <linkLabel
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldDescription="Recommended character count is max of 30 including spaces"
+                                                fieldLabel="Link Label"
+                                                name="./linkLabel"
+                                                required="{Boolean}false"/>
+                                            <linkUrl
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                                                fieldLabel="Link URL"
+                                                name="./linkUrl"
+                                                required="{Boolean}false"
+                                                rootPath="/content"/>
+                                            <openinanewtab
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/checkbox"
+                                                checked="{Boolean}false"
+                                                fieldDescription="Open in a new tab.(This only works for content pages and external URLs)"
+                                                name="./openinanewtab"
+                                                text="Open in a new tab"
+                                                uncheckedValue="{Boolean}false"
+                                                value="{Boolean}true"/>
+                                        </items>
+                                    </column>
+                                </items>
+                            </columns>
+                        </items>
+                        <granite:data
+                            jcr:primaryType="nt:unstructured"
+                            showhidetabtargetvalue="thick,thin"/>
+                    </general>
+                </items>
+            </tabs>
+        </items>
+    </content>
+</jcr:root>

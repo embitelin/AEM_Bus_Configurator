@@ -1,0 +1,60 @@
+
+
+
+<div data-sly-test="${properties.imagealign == 'right'}" class="${properties.divclass}" style="padding-left: 0; padding-right: 0;margin-left:10%;margin-bottom: 60px;">
+            <div class="col-5">
+              <span class="text-success fs-3">${properties.headerLabel @ context = 'html'}</span>
+              <div class="pt-3">
+                <span class="fs-5" style="line-height: 35px;">${properties.headerDesc @ context = 'html'}</span>
+              </div>
+              <a href="${properties.linkUrl}"><span>${properties.linkLabel}</span></a>
+            </div>
+            <div class="col-5" style="padding-left: 0px; padding-right: 0;margin-left:5px;">
+              <img class="articleimage float-end" src="${properties.logoReferenceImageCardImage}">
+            </div>
+          </div>
+
+
+
+<div data-sly-test="${properties.imagealign == 'left'}" class="${properties.divclass}" style="padding-left: 0; padding-right: 0;margin-left:10%;margin-bottom: 60px;">
+            <div class="col-5">
+              <img class="articleimage float-start" src="${properties.logoReferenceImageCardImage}">
+            </div>
+            <div class="col-5">
+              <span class="fs-3" style="color:cornflowerblue">${properties.headerLabel @ context = 'html'}</span>
+              <div class="pt-3">
+                <span class="fs-5" style="line-height: 35px;">${properties.headerDesc @ context = 'html'}</span>
+              </div>
+              <a href="${properties.linkUrl}"><span>${properties.linkLabel}</span></a>
+            </div>
+          </div>
+
+
+          <div data-sly-test="${properties.imagealign == 'top'}" class="${properties.divclass}">
+			<div class="d-flex justify-content-center mt-3">
+                <span class="fs-3 text-black">${properties.headerLabel @ context = 'html'}</span>
+              </div>
+              <div class="d-flex justify-content-center mt-2 mb-3">
+                <span class="fs-5 text-black-50"> ${properties.headerDesc @ context = 'html'}</span>
+              </div>
+            <div class="zoom-img-container">
+              <img
+                class="img-thumbnail border border-0"
+                src="${properties.logoReferenceImageCardImage}"
+              />
+            </div>
+
+			<div class="d-flex justify-content-center mb-4 mt-4">
+                <div class="d-inline-block px-3 py-2 ms-3" style="border-radius: 5px;background-color: ${properties.color @ context = 'unsafe'};">
+                  <a class="no-underline" href="${properties.linkUrl}" ><span class="text-white fs-6">${properties.linkLabel}</span> </a>
+                </div>
+              </div>
+
+            <div class="pb-3">
+
+              <div>
+
+              </div>
+            </div>
+          </div>
+

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:granite="http://www.adobe.com/jcr/granite/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Footer"
+    sling:resourceType="cq/gui/components/authoring/dialog"
+    helpPath="https://confluence.embitel.com/x/QQLVD">
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/coral/foundation/container">
+        <items jcr:primaryType="nt:unstructured">
+            <tabs
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/tabs"
+                maximized="{Boolean}true">
+                <items jcr:primaryType="nt:unstructured">
+                    <general
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="General"
+                        sling:resourceType="granite/ui/components/coral/foundation/container">
+                        <items jcr:primaryType="nt:unstructured">
+                            <columns
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns"
+                                margin="{Boolean}true">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <column
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/container">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <column1head
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldDescription="Recommended character count is max of 30 including spaces"
+                                                fieldLabel="Column 1 Header Label"
+                                                name="./column1head"
+                                                required="{Boolean}true"/>
+                                            <column1text
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldDescription="Recommended character count is max of 30 including spaces"
+                                                fieldLabel="Column 1 Header Text"
+                                                name="./column1text"
+                                                required="{Boolean}true"/>
+                                            <column1email
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldDescription="Recommended character count is max of 30 including spaces"
+                                                fieldLabel="Column 1 email"
+                                                name="./column1email"
+                                                required="{Boolean}true"/>
+                                            <column1phone
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldDescription="Recommended character count is max of 30 including spaces"
+                                                fieldLabel="Column 1 phone"
+                                                name="./column1phone"
+                                                required="{Boolean}true"/>
+                                            <column2head
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldDescription="Recommended character count is max of 30 including spaces"
+                                                fieldLabel="Column 2 Header Label"
+                                                name="./column2head"
+                                                required="{Boolean}true"/>
+                                            <column2text
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldDescription="Recommended character count is max of 30 including spaces"
+                                                fieldLabel="Column 1 Header Text"
+                                                name="./column2text"
+                                                required="{Boolean}true"/>
+                                            <column2linkLabel
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldDescription="Recommended character count is max of 30 including spaces"
+                                                fieldLabel="Column 2 Link Label"
+                                                name="./column2linkLabel"
+                                                required="{Boolean}true"/>
+                                            <column2linkUrl
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                                                fieldLabel="Column 2Link URL"
+                                                name="./column2linkUrl"
+                                                required="{Boolean}true"
+                                                rootPath="/content"/>
+                                            <column2linkLabel1
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldDescription="Recommended character count is max of 30 including spaces"
+                                                fieldLabel="Column 2 Link Label 1"
+                                                name="./column2linkLabel1"
+                                                required="{Boolean}true"/>
+                                            <column2linkUrl1
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                                                fieldLabel="Column 2Link URL 1"
+                                                name="./column2linkUrl1"
+                                                required="{Boolean}true"
+                                                rootPath="/content"/>
+                                            <openinanewtab
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/checkbox"
+                                                checked="{Boolean}false"
+                                                fieldDescription="Open in a new tab.(This only works for content pages and external URLs)"
+                                                name="./openinanewtab"
+                                                text="Open in a new tab"
+                                                uncheckedValue="{Boolean}false"
+                                                value="{Boolean}true"/>
+                                            <column3head
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldDescription="Recommended character count is max of 30 including spaces"
+                                                fieldLabel="Column 3 Header Label"
+                                                name="./column3head"
+                                                required="{Boolean}true"/>
+                                            <column3text
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldDescription="Recommended character count is max of 30 including spaces"
+                                                fieldLabel="Column 3 Header Text"
+                                                name="./column3text"
+                                                required="{Boolean}true"/>
+                                            <column3person
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldDescription="Recommended character count is max of 30 including spaces"
+                                                fieldLabel="Column 3 Person Text"
+                                                name="./column3person"
+                                                required="{Boolean}true"/>
+                                            <column3persondept
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldDescription="Recommended character count is max of 30 including spaces"
+                                                fieldLabel="Column 3 Person Dept Text"
+                                                name="./column3persondept"
+                                                required="{Boolean}true"/>
+                                            <copyright
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldDescription="Recommended character count is max of 30 including spaces"
+                                                fieldLabel="copyright text"
+                                                name="./copyright"
+                                                required="{Boolean}true"/>
+                                        </items>
+                                    </column>
+                                </items>
+                            </columns>
+                        </items>
+                        <granite:data
+                            jcr:primaryType="nt:unstructured"
+                            showhidetabtargetvalue="thick,thin"/>
+                    </general>
+                </items>
+            </tabs>
+        </items>
+    </content>
+</jcr:root>

@@ -1,0 +1,57 @@
+.header-img {
+    height: 50px;
+    width: 150px;
+}
+
+.linkcontent {
+    color: #60605f;
+    font-size: 14px;
+}
+
+.linkcontent-text {
+    padding-left: 10px;
+    /* Adjust the padding as needed */
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+.reach-email {
+    font-size: 14px;
+    color: #a6aeb6;
+}
+
+.phone-num { 
+    font-size: 14px;
+    margin-top: 0px;
+}
+
+.othlbl { 
+    color: #a6aeb6;
+    font-size: 14px;
+}
+
+.lbltext { 
+    color: #a6aeb6;
+    font-size: 14px;
+}
+.lbltext {
+    color: #a6aeb6;
+    font-size: 14px;
+}
+
+.articleimage {
+    height: 330px;
+    width: 585px;
+}
+.cmp-teaser__content {
+text-align : center;
+}
+
+.cmp-carousel__actions {
+display:none;
+}
+.zoom-img-container:hover {
+  transform: scale(1.02); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}

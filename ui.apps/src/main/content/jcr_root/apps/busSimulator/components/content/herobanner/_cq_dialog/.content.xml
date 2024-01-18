@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:granite="http://www.adobe.com/jcr/granite/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Herobanner Component"
+    sling:resourceType="cq/gui/components/authoring/dialog"
+    helpPath="https://confluence.embitel.com/article">
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/coral/foundation/container">
+        <items jcr:primaryType="nt:unstructured">
+            <tabs
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/tabs"
+                maximized="{Boolean}true">
+                <items jcr:primaryType="nt:unstructured">
+                    <general
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="General"
+                        sling:resourceType="granite/ui/components/coral/foundation/container">
+                        <items jcr:primaryType="nt:unstructured">
+                            <columns
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns"
+                                margin="{Boolean}true">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <column
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/container">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <cardimage1
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="cq/gui/components/authoring/dialog/fileupload"
+                                                allowUpload="{Boolean}false"
+                                                autoStart="{Boolean}false"
+                                                class="cq-droptarget"
+                                                fieldLabel="Card Image 1"
+                                                fileNameParameter="./cardimage1"
+                                                fileReferenceParameter="./logoReferenceImageCardImage1"
+                                                mimeTypes="[image/gif,image/jpeg,image/png,image/tiff,image/svg+xml]"
+                                                name="./imagePath1"
+                                                title="Upload Image 1"
+                                                uploadUrl="${suffix.path}"
+                                                useHTML5="{Boolean}true"/>
+                                            <imagealt1
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldDescription="Recommended character count is max of 30 including spaces"
+                                                fieldLabel="Image Alt 1"
+                                                name="./imagealt1"
+                                                required="{Boolean}true"/>
+                                            <headerLabel1
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldDescription="Recommended character count is max of 30 including spaces"
+                                                fieldLabel="Header Label 1"
+                                                name="./headerLabel1"
+                                                required="{Boolean}true"/>
+                                            <headerDesc1
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="cq/gui/components/authoring/dialog/richtext"
+                                                fieldDescription="Recommended character count is max of 30 including spaces"
+                                                fieldLabel="Description 1"
+                                                name="./headerDesc1"
+                                                required="{Boolean}true"
+                                                useFixedInlineToolbar="{Boolean}true"/>
+                                            <cardimage2
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="cq/gui/components/authoring/dialog/fileupload"
+                                                allowUpload="{Boolean}false"
+                                                autoStart="{Boolean}false"
+                                                class="cq-droptarget"
+                                                fieldLabel="Card Image 2"
+                                                fileNameParameter="./cardimage2"
+                                                fileReferenceParameter="./logoReferenceImageCardImage2"
+                                                mimeTypes="[image/gif,image/jpeg,image/png,image/tiff,image/svg+xml]"
+                                                name="./imagePath2"
+                                                title="Upload Image 2"
+                                                uploadUrl="${suffix.path}"
+                                                useHTML5="{Boolean}true"/>
+                                            <imagealt2
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldDescription="Recommended character count is max of 30 including spaces"
+                                                fieldLabel="Image Alt 2"
+                                                name="./imagealt2"
+                                                required="{Boolean}true"/>
+                                            <headerLabel2
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldDescription="Recommended character count is max of 30 including spaces"
+                                                fieldLabel="Header Label 2"
+                                                name="./headerLabel2"
+                                                required="{Boolean}true"/>
+                                            <headerDesc2
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="cq/gui/components/authoring/dialog/richtext"
+                                                fieldDescription="Recommended character count is max of 30 including spaces"
+                                                fieldLabel="Description 2"
+                                                name="./headerDesc2"
+                                                required="{Boolean}true"
+                                                useFixedInlineToolbar="{Boolean}true"/>
+                                            <cardimage3
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="cq/gui/components/authoring/dialog/fileupload"
+                                                allowUpload="{Boolean}false"
+                                                autoStart="{Boolean}false"
+                                                class="cq-droptarget"
+                                                fieldLabel="Card Image 3"
+                                                fileNameParameter="./cardimage3"
+                                                fileReferenceParameter="./logoReferenceImageCardImage3"
+                                                mimeTypes="[image/gif,image/jpeg,image/png,image/tiff,image/svg+xml]"
+                                                name="./imagePath3"
+                                                title="Upload Image 3"
+                                                uploadUrl="${suffix.path}"
+                                                useHTML5="{Boolean}true"/>
+                                            <imagealt3
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldDescription="Recommended character count is max of 30 including spaces"
+                                                fieldLabel="Image Alt 3"
+                                                name="./imagealt3"
+                                                required="{Boolean}true"/>
+                                            <headerLabel3
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldDescription="Recommended character count is max of 30 including spaces"
+                                                fieldLabel="Header Label 3"
+                                                name="./headerLabel3"
+                                                required="{Boolean}true"/>
+                                            <headerDesc3
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="cq/gui/components/authoring/dialog/richtext"
+                                                fieldDescription="Recommended character count is max of 30 including spaces"
+                                                fieldLabel="Description 3"
+                                                name="./headerDesc3"
+                                                required="{Boolean}true"
+                                                useFixedInlineToolbar="{Boolean}true"/>
+                                        </items>
+                                    </column>
+                                </items>
+                            </columns>
+                        </items>
+                        <granite:data
+                            jcr:primaryType="nt:unstructured"
+                            showhidetabtargetvalue="thick,thin"/>
+                    </general>
+                </items>
+            </tabs>
+        </items>
+    </content>
+</jcr:root>

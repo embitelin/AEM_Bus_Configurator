@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/busSimulator/clientlibs"/>
+    <filter root="/apps/busSimulator/components"/>
+    <filter root="/apps/busSimulator/i18n"/>
+</workspaceFilter>
