@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:file">
+    <jcr:content
+        dam:folderThumbnailPaths="[/content/dam/busSimulator/bus/public/free_ai_based_conceptcar_050_public_domain_cc0.glb,/content/dam/busSimulator/bus/public/2326x800-volvo-9900-on-road-1.jpg,/content/dam/busSimulator/bus/public/Volvo-9700DD-Drone-film-2326x800.jpg]"
+        jcr:primaryType="nt:unstructured"
+        bgcolor="{Long}-1"
+        height="{Long}240"
+        width="{Long}280"/>
+</jcr:root>

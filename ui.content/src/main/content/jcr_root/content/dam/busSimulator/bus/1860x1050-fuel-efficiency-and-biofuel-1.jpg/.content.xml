@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="3d850c16-727b-4ef8-8205-6812326d34ec">
+    <jcr:content
+        cq:lastModified="{Date}2024-01-18T17:13:17.835+05:30"
+        cq:lastModifiedBy="admin"
+        cq:name="1860x1050-fuel-efficiency-and-biofuel-1.jpg"
+        cq:parentPath="/content/dam/embitel-app"
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2023-12-22T11:34:06.343+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2023-12-22T11:33:53.738+05:30"
+            dam:Fileformat="PNG"
+            dam:MIMEtype="image/png"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}-1"
+            dam:Physicalheightininches="{Decimal}-1.0"
+            dam:Physicalwidthindpi="{Long}-1"
+            dam:Physicalwidthininches="{Decimal}-1.0"
+            dam:Progressive="no"
+            dam:sha1="64e6bc8382a2b56e16e574598bd78af2c5700073"
+            dam:size="{Long}567546"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2023-12-22T11:34:03.846+05:30"
+            jcr:lastModified="{Date}2023-12-22T11:34:03.843+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}813"
+            tiff:ImageWidth="{Long}1440"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

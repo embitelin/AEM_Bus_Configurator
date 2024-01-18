@@ -1,0 +1,7 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/busSimulator",
+        "create path (nt:unstructured) /content/dam/busSimulator/jcr:content",
+        "set properties on /content/dam/busSimulator/jcr:content\n  set cq:conf{String} to /conf/busSimulator\n  set jcr:title{String} to \"Bus Simulator\"\nend"
+    ]
+}

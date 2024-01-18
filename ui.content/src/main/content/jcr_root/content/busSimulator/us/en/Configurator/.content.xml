@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2024-01-17T17:11:02.296+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/busSimulator/settings/wcm/templates/bustemp"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="configurator"
+        sling:resourceType="busSimulator/components/structure/page">
+        <root
+            jcr:lastModified="{Date}2024-01-17T15:21:03.550+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid"
+            layout="responsiveGrid">
+            <topheader
+                jcr:created="{Date}2024-01-17T16:57:10.499+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2024-01-17T17:02:30.125+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="busSimulator/components/content/topheader"
+                headerLabel="Embitel Bus Care Builder &lt;br/>Build your coach"
+                headerUrl="https://www.google.com/"
+                linkLabel1="Global"
+                linkLabel2="Contact us"
+                linkLabel3="Find Service Center"
+                linkUrl1="#"
+                linkUrl2="#"
+                linkUrl3="#"
+                logoReferenceImageCardImage="/content/dam/embitel-app/logo-1.png"
+                logoUrl="/content/busSimulator/us/en/Bus-Home-Page.html?wcmmode=disabled"
+                openinanewtab="false"
+                trackingEnableClickTracking="false"/>
+            <configurator
+                jcr:created="{Date}2024-01-17T17:11:02.294+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2024-01-17T17:11:02.294+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="busSimulator/components/content/configurator"/>
+            <footer
+                jcr:created="{Date}2024-01-17T17:08:41.105+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2024-01-17T17:10:49.774+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="busSimulator/components/content/footer"
+                column1email="joakim.kenndal@embitel.com"
+                column1head="Reach Us"
+                column1phone="+46313225150"
+                column1text="Do you have any questions, suggestions or comments?"
+                column2head="Career - Apply for a job"
+                column2linkLabel="Visit Embitel Group careers"
+                column2linkLabel1="Browse current opportunities"
+                column2linkUrl="#"
+                column2linkUrl1="#"
+                column2text="Job applications are handled centrally by Embitel Group. Do you want to be a part of our team? Visit the Career pages to find the challenge you are looking for!"
+                column3head="Media related question"
+                column3person="Joakim Kenndal"
+                column3persondept="Head of Media Relations &amp; PR"
+                column3text="Embitel Buses Media Relations are responsible for all external corporate communication relating to Embitel Buses. Journalists can reach our Media Relations Manager directly or through the contact information below."
+                copyright="@ Copyright Embitel 2023"
+                openinanewtab="false"/>
+        </root>
+    </jcr:content>
+</jcr:root>

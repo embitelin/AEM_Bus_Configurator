@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="447a668b-dbaf-43b7-95ba-b582f0a281a4">
+    <jcr:content
+        cq:lastModified="{Date}2024-01-18T17:13:20.508+05:30"
+        cq:lastModifiedBy="admin"
+        cq:name="seat-1-lAJLJMpw.png"
+        cq:parentPath="/content/dam/busSimulator/bus/assets"
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2023-12-22T11:34:56.365+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}64"
+            dam:extracted="{Date}2023-12-22T11:34:40.829+05:30"
+            dam:Fileformat="PNG"
+            dam:MIMEtype="image/png"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}-1"
+            dam:Physicalheightininches="{Decimal}-1.0"
+            dam:Physicalwidthindpi="{Long}-1"
+            dam:Physicalwidthininches="{Decimal}-1.0"
+            dam:Progressive="no"
+            dam:sha1="983c3ec5c638bdebf5bcf7066aa01fb789860e8d"
+            dam:size="{Long}44491"
+            dc:format="image/png"
+            dc:modified="{Date}2023-12-22T11:34:54.635+05:30"
+            jcr:lastModified="{Date}2023-12-22T11:34:54.635+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}512"
+            tiff:ImageWidth="{Long}512"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

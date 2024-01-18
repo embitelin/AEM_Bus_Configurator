@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="21efbc53-4551-44a7-acc4-7e1230c3d0c2">
+    <jcr:content
+        cq:lastModified="{Date}2024-01-18T17:13:17.437+05:30"
+        cq:lastModifiedBy="admin"
+        cq:name="volvo9700.jpg"
+        cq:parentPath="/content/dam/embitel-app"
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2023-12-22T11:34:10.691+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2023-12-22T11:33:43.126+05:30"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}96"
+            dam:Physicalheightininches="{Decimal}5.1875"
+            dam:Physicalwidthindpi="{Long}96"
+            dam:Physicalwidthininches="{Decimal}9.729166984558105"
+            dam:Progressive="no"
+            dam:sha1="9f6c9fd40ef9e27ebe3d1db021fb1ff56d135acd"
+            dam:size="{Long}67554"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2023-12-22T11:34:08.219+05:30"
+            jcr:lastModified="{Date}2023-12-22T11:34:08.218+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}498"
+            tiff:ImageWidth="{Long}934"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

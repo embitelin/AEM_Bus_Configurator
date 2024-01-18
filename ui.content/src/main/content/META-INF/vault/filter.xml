@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/busSimulator" mode="merge"/>
+    <filter root="/content/busSimulator" mode="merge"/>
+    <filter root="/content/dam/busSimulator" mode="merge"/>
+	<filter root="/content/dam/formsanddocuments-fdm" mode="merge"/>
+	<filter root="/content/dam/formsanddocuments-themes" mode="merge"/>
+    <filter root="/content/experience-fragments/busSimulator" mode="merge"/>
+</workspaceFilter>

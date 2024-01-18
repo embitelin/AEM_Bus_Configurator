@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpDM="http://ns.adobe.com/xmp/1.0/DynamicMedia/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="b98cbb84-a621-478f-8bdd-109dd36a7621">
+    <jcr:content
+        cq:lastModified="{Date}2024-01-18T17:13:19.221+05:30"
+        cq:lastModifiedBy="admin"
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2023-12-22T11:35:06.777+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:extracted="{Date}2023-12-22T11:35:03.283+05:30"
+            dam:sha1="9f5b6ed379261c4baa2390678634765b572b0735"
+            dam:size="{Long}15565844"
+            dc:format="video/mp4"
+            dc:modified="{Date}2023-12-22T11:35:06.441+05:30"
+            jcr:lastModified="{Date}2023-12-22T11:35:06.440+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:Orientation="{Long}1"
+            xmp:CreateDate="{Date}1904-01-01T00:00:00.000Z"
+            xmp:ModifyDate="{Date}1904-01-01T00:00:00.000Z">
+            <xmpDM:duration
+                jcr:primaryType="nt:unstructured"
+                xmpDM:scale="1/1000"
+                xmpDM:value="{Long}120022"
+                xmpNodeType="xmpStruct"/>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>
