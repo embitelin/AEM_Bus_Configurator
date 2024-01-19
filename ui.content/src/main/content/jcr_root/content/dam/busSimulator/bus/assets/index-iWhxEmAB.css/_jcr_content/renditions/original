@@ -1,13 +1,13 @@
 @font-face {
   font-family: Roboto;
   src: local("Roboto"),
-    url(/content/dam/embitel-app/assets/Roboto-Regular-7r7tAgJZ.ttf)
+    url(/content/dam/busSimulator/bus/assets/Roboto-Regular-7r7tAgJZ.ttf)
       format("truetype");
 }
 @font-face {
   font-family: Roboto-Bold;
   src: local("Roboto-Bold"),
-    url(/content/dam/embitel-app/assets/Roboto-Bold-MCqFMSnV.ttf)
+    url(/content/dam/busSimulator/bus/assets/Roboto-Bold-MCqFMSnV.ttf)
       format("truetype");
 }
 :root {
