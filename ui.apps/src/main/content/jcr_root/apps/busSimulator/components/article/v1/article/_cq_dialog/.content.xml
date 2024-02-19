@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:granite="http://www.adobe.com/jcr/granite/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Article Component"
+    sling:resourceType="cq/gui/components/authoring/dialog"
+    helpPath="https://confluence.embitel.com/article">
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/coral/foundation/container">
+        <items jcr:primaryType="nt:unstructured">
+            <tabs
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/tabs"
+                maximized="{Boolean}true">
+                <items jcr:primaryType="nt:unstructured">
+                    <general
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="General"
+                        sling:resourceType="granite/ui/components/coral/foundation/container">
+                        <items jcr:primaryType="nt:unstructured">
+                            <columns
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns"
+                                margin="{Boolean}true">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <column
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/container">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <cardimage
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="cq/gui/components/authoring/dialog/fileupload"
+                                                allowUpload="{Boolean}false"
+                                                autoStart="{Boolean}false"
+                                                class="cq-droptarget"
+                                                fieldLabel="Card Image"
+                                                fileNameParameter="./cardimage"
+                                                fileReferenceParameter="./logoReferenceImageCardImage"
+                                                mimeTypes="[image/gif,image/jpeg,image/png,image/tiff,image/svg+xml]"
+                                                name="./imagePath"
+                                                title="Upload Image"
+                                                uploadUrl="${suffix.path}"
+                                                useHTML5="{Boolean}true"/>
+                                            <backgroundimagealttext
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldDescription="Please author content that describes the image best. It should not be the same as Component Title."
+                                                fieldLabel="Alt Text"
+                                                name="./imageAltText"
+                                                required="{Boolean}true"/>
+                                            <imagealign
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                                fieldDescription="Image Align Style"
+                                                fieldLabel="Image Position"
+                                                name="./imagealign"
+                                                type="editable">
+                                                <items jcr:primaryType="nt:unstructured">
+                                                    <top
+                                                        jcr:primaryType="nt:unstructured"
+                                                        text="top"
+                                                        value="top"/>
+                                                    <left
+                                                        jcr:primaryType="nt:unstructured"
+                                                        text="left"
+                                                        value="left"/>
+                                                    <right
+                                                        jcr:primaryType="nt:unstructured"
+                                                        text="right"
+                                                        value="right"/>
+                                                    <bottom
+                                                        jcr:primaryType="nt:unstructured"
+                                                        text="bottom"
+                                                        value="bottom"/>
+                                                </items>
+                                            </imagealign>
+                                            <headerLabel
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldDescription="Recommended character count is max of 30 including spaces"
+                                                fieldLabel="Header Label"
+                                                name="./headerLabel"
+                                                required="{Boolean}true"/>
+                                            <headerDesc
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="cq/gui/components/authoring/dialog/richtext"
+                                                fieldDescription="Recommended character count is max of 30 including spaces"
+                                                fieldLabel="Description"
+                                                name="./headerDesc"
+                                                required="{Boolean}true"
+                                                useFixedInlineToolbar="{Boolean}true"/>
+                                            <linkLabel
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldDescription="Recommended character count is max of 30 including spaces"
+                                                fieldLabel="Link Label"
+                                                name="./linkLabel"
+                                                required="{Boolean}true"/>
+                                            <linkUrl
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                                                fieldLabel="Link URL"
+                                                name="./linkUrl"
+                                                required="{Boolean}true"
+                                                rootPath="/content"/>
+                                            <color
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldDescription="Button BG Color"
+                                                fieldLabel="Botton BG Color"
+                                                name="./color"/>
+                                            <divclass
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldDescription="Recommended class name applied to parent div"
+                                                fieldLabel="Specific Div Class"
+                                                name="./divclass"
+                                                required="{Boolean}false"/>
+                                            <openinanewtab
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/checkbox"
+                                                checked="{Boolean}false"
+                                                fieldDescription="Open in a new tab.(This only works for content pages and external URLs)"
+                                                name="./openinanewtab"
+                                                text="Open in a new tab"
+                                                uncheckedValue="{Boolean}false"
+                                                value="{Boolean}true"/>
+                                        </items>
+                                    </column>
+                                </items>
+                            </columns>
+                        </items>
+                        <granite:data
+                            jcr:primaryType="nt:unstructured"
+                            showhidetabtargetvalue="thick,thin"/>
+                    </general>
+                    <tracking
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Tracking Properties"
+                        sling:resourceType="granite/ui/components/coral/foundation/container">
+                        <items jcr:primaryType="nt:unstructured">
+                            <columns
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns"
+                                margin="{Boolean}true">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <column
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/container">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <enabletracking
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/checkbox"
+                                                checked="{Boolean}false"
+                                                fieldDescription="Enable click tracking"
+                                                name="./trackingEnableClickTracking"
+                                                text="Enable click tracking"
+                                                uncheckedValue="{Boolean}false"
+                                                value="{Boolean}true"/>
+                                            <trackinglocation
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldLabel="Location"
+                                                name="./trackingLocation"/>
+                                        </items>
+                                    </column>
+                                </items>
+                            </columns>
+                        </items>
+                    </tracking>
+                </items>
+            </tabs>
+        </items>
+    </content>
+</jcr:root>
